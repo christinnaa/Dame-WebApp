@@ -104,9 +104,49 @@
   }
 
   .container {
-    background-color: #ffffff;
     height: 91vh;
   }
+
+  .main-container {
+    padding-top: 2%;
+    display: flex;
+    width: 100%;
+  }
+  .left-container {
+    padding: 0em 1em 1em 4em;
+    width: 50%;
+    text-align: justify;
+  }
+  .right-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .landing-logo {
+    display: flex;
+    height: 520px;
+    width: 680px;
+    border-radius: 3%;
+  }
+
+  .title {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+  }
+  p {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500; 
+    color: rgb(0, 0, 0);
+  }
+
+
+  
+
 
 
   .spinner-container {
