@@ -29,19 +29,45 @@ include "../db/config.php";
         <label class="logo"> <img class="school-logo" src="../assets/img/nddu-logo.png"> </label>
         <ul>
             <li><a class="active" href="#"><b>Home </b></a></li>
-            <li><a href="../results/results.html">Results</a></li>
+            <li><a href="../results/results.php">Results</a></li>
             <li><a href="../students/students.html">Students</a></li>
             <li><a href="#">About</a></li>
             <li><a href="../logout.php">Log Out</a></li>
         </ul>
     </nav>
 <?php include "../include/loader.php";?>
-    <section>
-        <div class="container">
+<section>
+      
+      <div class="container">
+          <div class="main-container">
+              <div class="left-container">
+                <div class="vision">
+                  <h1 class="title">Vision</h1>
+                  <p>Notre Dame of Dadiangas University is a Catholic, Filipino Institution of Academic Excellence established by 
+                    the Marist Brothers of the Schools (F M.S. -Fratres Maristae a Scholis) characterized by St. Marcellin Champagnat’s
+                    ideals of simplicity humility and quiet zeal for God’s work as inspired by the Blessed Virgin Mary. 
+                    The school is dedicated to the formation of persons in all levels of learning, who, as Christian Leaders, 
+                    Competent Professionals, Community-Oriented Citizens and Culture Sensitive Individuals will actively participate in 
+                    building a peaceful and progressive nation.</p>
+                </div> <br>
+                <div class="mission">
+                  <h1 class="title">Vision</h1>
+                  <p>As a Catholic Educational Institution, NDDU shares in the Church’s mission of evangelization by integrating life and faith; <br>
 
-            <br>
-            <h1>Notre Dame</h1>
-        </div>
+                    As a Filipino Institution, NDDU seeks to preserve Filipino Culture and propagate love of country and its people;<br>
+                    
+                    As an Institution of Quality Education, NDDU aims leadership in Curricular Programs, Multi-Disciplinary Programs, Research, and Community Services;<br>
+                    
+                    As a Marist Institution, NDDU promotes the core values of Family Spirit, Marian Spirit, Simplicity, Presence, Preference for the Least Favored, Love of Work, and Integrity of Creation; and <br>
+                    
+                    As a Community-Oriented Institution NDDU aims to respond to the challenges of the locality it is serving: South Cotabato, Sultan Kudarat, Sarangani Province and, General Santos City (SOCCSKSARGEN Area).</p>
+                </div>
+              </div>
+              <div class="right-container">
+                <img class="landing-logo" src="../assets/img/nddu-campus.jpg">
+              </div>
+          </div>
+      </div>
     </section>
 
 
