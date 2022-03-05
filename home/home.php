@@ -31,7 +31,7 @@ include "../db/config.php";
             <li><a class="active" href="#"><b>Home </b></a></li>
             <li><a href="../results/results.php">Results</a></li>
             <li><a href="../students/students.html">Students</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../about/about.php">About</a></li>
             <li><a href="../logout.php">Log Out</a></li>
         </ul>
     </nav>
@@ -43,7 +43,7 @@ include "../db/config.php";
               <div class="left-container">
                 <div class="vision">
                   <h1 class="title">Vision</h1>
-                  <p>Notre Dame of Dadiangas University is a Catholic, Filipino Institution of Academic Excellence established by 
+                  <p class="mission-description">Notre Dame of Dadiangas University is a Catholic, Filipino Institution of Academic Excellence established by 
                     the Marist Brothers of the Schools (F M.S. -Fratres Maristae a Scholis) characterized by St. Marcellin Champagnat’s
                     ideals of simplicity humility and quiet zeal for God’s work as inspired by the Blessed Virgin Mary. 
                     The school is dedicated to the formation of persons in all levels of learning, who, as Christian Leaders, 
@@ -51,8 +51,8 @@ include "../db/config.php";
                     building a peaceful and progressive nation.</p>
                 </div> <br>
                 <div class="mission">
-                  <h1 class="title">Vision</h1>
-                  <p>As a Catholic Educational Institution, NDDU shares in the Church’s mission of evangelization by integrating life and faith; <br>
+                  <h1 class="title">Mission</h1>
+                  <p class="vision-description">As a Catholic Educational Institution, NDDU shares in the Church’s mission of evangelization by integrating life and faith; <br>
 
                     As a Filipino Institution, NDDU seeks to preserve Filipino Culture and propagate love of country and its people;<br>
                     
@@ -64,7 +64,6 @@ include "../db/config.php";
                 </div>
               </div>
               <div class="right-container">
-                <img class="landing-logo" src="../assets/img/nddu-campus.jpg">
               </div>
           </div>
       </div>
