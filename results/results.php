@@ -20,9 +20,9 @@
         <label class="logo"> <img class="school-logo" src="../assets/img/nddu-logo.png"> </label>
         <ul>
             <li><a  href="../home/home.php">Home</a></li>
-            <li><a class="active" href="../results/results.html"><b>Results</b></a></li>
+            <li><a class="active" href="../results/results.php"><b>Results</b></a></li>
             <li><a href="../students/students.html">Students</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../about/about.php">About</a></li>
             <li><a href="../logout.php">Log Out</a></li>
         </ul>
     </nav>

@@ -105,6 +105,9 @@
 
   .container {
     height: 91vh;
+    background-image: url(../assets/img/background1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .main-container {
@@ -113,8 +116,8 @@
     width: 100%;
   }
   .left-container {
-    padding: 0em 1em 1em 4em;
-    width: 50%;
+    padding: 0em 1em 1em 2.5em;
+    width: 43%;
     text-align: justify;
   }
   .right-container {
@@ -134,14 +137,23 @@
 
   .title {
     font-size: 32px;
-    color: rgb(0, 0, 0);
+    color: #df980f;
   }
-  p {
+  .mission-description {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 500; 
-    color: rgb(0, 0, 0);
+    color: rgb(212, 211, 206);
+    text-indent: 30px;
+  }
+
+  .vision-description {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500; 
+    color: rgb(212, 211, 206);
   }
 
 
