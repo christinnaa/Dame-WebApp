@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   padding: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 /* body:before {
@@ -69,8 +69,8 @@ p {
 }
 
 .input-group-text {
-  background-color: #0c5c04;
-  color: white;
+  background-color: #0c5c04 !important;
+  color: white !important;
 }
 
 #info {
@@ -94,7 +94,7 @@ thead {
 }
 
 .float-start {
-  margin-left: 3em;
+  margin-left: 1.5em;
 }
 
 #percent-rank {
@@ -124,7 +124,9 @@ thead {
 }
 
 .wrapper {
-  margin-top: 30px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 nav {
@@ -160,15 +162,16 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a.active,
 a:hover {
-  color: #000000;
-  transition: .5s;
+  color: #000000 !important;
+  transition: 0.5s;
   background-color: #df980f;
-  text-decoration: none;
+  text-decoration: none !important;
+  
 }
 
 .checkbtn {
@@ -185,8 +188,8 @@ a:hover {
   display: none;
 }
 
-.btn-toolbar{
-margin: 20px;
+.btn-toolbar {
+  margin: 20px;
 }
 
 @media (max-width: 952px) {
@@ -201,7 +204,7 @@ margin: 20px;
   }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 860px) {
   .checkbtn {
     display: block;
   }
@@ -214,7 +217,7 @@ margin: 20px;
     top: 70px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   nav ul li {
@@ -235,7 +238,7 @@ margin: 20px;
     text-decoration: none;
   }
 
-  #check:checked~ul {
+  #check:checked ~ ul {
     left: 0;
   }
 }
@@ -249,7 +252,6 @@ section {
   background-color: #ffffff;
   height: 91vh;
 }
-
 
 .spinner-container {
   width: 100%;
@@ -273,22 +275,44 @@ section {
   height: 4.5px;
   border-radius: 50%;
   color: #126d16;
-  box-shadow: calc(1*var(--d)) calc(0*var(--d)) 0 0,
-    calc(0.707*var(--d)) calc(0.707*var(--d)) 0 1.1px,
-    calc(0*var(--d)) calc(1*var(--d)) 0 2.2px,
-    calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 3.4px,
-    calc(-1*var(--d)) calc(0*var(--d)) 0 4.5px,
-    calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5.6px,
-    calc(0*var(--d)) calc(-1*var(--d)) 0 6.7px;
+  box-shadow: calc(1 * var(--d)) calc(0 * var(--d)) 0 0,
+    calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1.1px,
+    calc(0 * var(--d)) calc(1 * var(--d)) 0 2.2px,
+    calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 3.4px,
+    calc(-1 * var(--d)) calc(0 * var(--d)) 0 4.5px,
+    calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 5.6px,
+    calc(0 * var(--d)) calc(-1 * var(--d)) 0 6.7px;
   animation: spinner-a90wxe 1s infinite steps(8);
-
 }
-
-
-
 
 @keyframes spinner-a90wxe {
   100% {
     transform: rotate(1turn);
   }
+}
+
+@media only screen and (max-width: 490px) {
+  p {
+    font-size: small;
+  }
+
+  h4 {
+    font-size: 20px !important;
+  }
+  h6 {
+    font-size: x-small;
+  }
+  th {
+    font-size: 15px;
+  }
+  td{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .school-logo {
+    display: none;
+  }
+
 }

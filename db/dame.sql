@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 19, 2022 at 12:09 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 7.3.26
+-- Generation Time: Mar 05, 2022 at 08:20 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.0.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `dame`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `students`
+--
+
+CREATE TABLE `students` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `prev_school` varchar(255) NOT NULL,
+  `gender` varchar(100) NOT NULL,
+  `school_ability_score` varchar(100) NOT NULL,
+  `apt_verbal_score` varchar(100) NOT NULL,
+  `apt_numerical_score` varchar(100) NOT NULL,
+  `school_ability_sn` varchar(100) NOT NULL,
+  `apt_verbal_sn` varchar(100) NOT NULL,
+  `apt_numerical_sn` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -40,6 +59,12 @@ CREATE TABLE `users` (
 --
 
 --
+-- Indexes for table `students`
+--
+ALTER TABLE `students`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -48,6 +73,12 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `students`
+--
+ALTER TABLE `students`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
