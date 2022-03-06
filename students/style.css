@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 /* body:before {
@@ -160,7 +160,7 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a.active,
@@ -168,7 +168,8 @@ a:hover {
   color: #000000;
   transition: .5s;
   background-color: #df980f;
-  text-decoration: none;
+  text-decoration: none !important;
+  color: inherit  !important;
 }
 
 .checkbtn {

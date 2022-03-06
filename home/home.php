@@ -12,6 +12,7 @@ include "../db/config.php";
     <meta charset="utf-8">
     <title>NDDU Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/cropped-NDDU-Site-Favicon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -30,7 +31,7 @@ include "../db/config.php";
         <ul>
             <li><a class="active" href="#"><b>Home </b></a></li>
             <li><a href="../results/results.php">Results</a></li>
-            <li><a href="../students/students.html">Students</a></li>
+            <li><a href="../students/students.php">Students</a></li>
             <li><a href="../about/about.php">About</a></li>
             <li><a href="../logout.php">Log Out</a></li>
         </ul>
