@@ -123,12 +123,10 @@ thead {
   color: gray;
 }
 
-.wrapper {
-  margin-top: 0px;
-  display: flex;
-  justify-content: flex-start;
+.signature-div {
+  background-color: aqua;
+  z-index: 10;
 }
-
 nav {
   background: #0c5c04;
   height: 70px;
