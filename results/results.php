@@ -136,11 +136,12 @@
                 </tbody>
             </table>
         </div>
-        <br>
-        <div class="wrapper clearfix">
-            <div class="float-start">
-                <h4>_____________________</h4>
-                <h6>Applicant's Signature</h6>
+        <div class="signature-div">
+            <div id="wrapper" class="wrapper clearfix">
+                <div class="float-start">
+                    <h4>_____________________</h4>
+                    <h6>Applicant's Signature</h6>
+                </div>
             </div>
         </div>
     </div>
